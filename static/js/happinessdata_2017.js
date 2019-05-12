@@ -1,4 +1,4 @@
-var happiness_data = [
+var happiness_data_2017 = [
   {
     "Country": "Norway",
     "Happiness.Rank": 1,
