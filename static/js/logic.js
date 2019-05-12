@@ -21,10 +21,12 @@ function getColor(d) {
 
 function onEachFeature(feature, layer) {
   var happiness_score = 0
+  var happiness_rank
   var flag
     for(i=0;i<happiness_data.length;i++){
       if(feature.properties.ADMIN === happiness_data[i].Country){
       happiness_score = happiness_data[i]['Happiness.Score'].toPrecision(3)
+      happiness_rank = happiness_data[i]['Happiness.Rank']
       }
     }
     for(i=0;i<flag_data.length;i++){
@@ -33,7 +35,7 @@ function onEachFeature(feature, layer) {
         flag=flag_data[i].emoji
       }
     }
-    layer.bindPopup("<b><font size =\"+1\">"+feature.properties.ADMIN+" </b>"+flag+"</font><hr>" +"<p>Happiness Score: "+happiness_score+"</p>"+ "<li style=\"background-color:" + getColor(happiness_score) + "\"></li>");
+    layer.bindPopup("<b><font size =\"+1\">"+feature.properties.ADMIN+" </b>"+flag+"</br> Rank: "+happiness_rank+"</font><hr>" +"<p>Happiness Score: "+happiness_score+"</p>"+ "<li style=\"background-color:" + getColor(happiness_score) + "\"></li>");
     layer.on({
       // When a user's mouse touches a map feature, the mouseover event calls this function, that feature's opacity changes to 90% so that it stands out
       mouseover: function(event) {
