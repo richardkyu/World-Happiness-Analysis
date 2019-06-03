@@ -1,4 +1,4 @@
-var happiness_data_2016=[
+var data_test_2016=[
   {
     "Country": "Denmark",
     "Region": "Western Europe",

@@ -1,4 +1,4 @@
-var happiness_data_2015=[
+var data_test_2015=[
   
     {
       "Country": "Switzerland",

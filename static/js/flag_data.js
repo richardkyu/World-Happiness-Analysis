@@ -276,7 +276,7 @@ var flag_data =[
         "code": "CD",
         "emoji": "🇨🇩",
         "unicode": "U+1F1E8 U+1F1E9",
-        "name": "Congo",
+        "name": "Democratic Republic of the Congo",
         "title": "flag for Congo"
     },
     {
@@ -290,7 +290,7 @@ var flag_data =[
         "code": "CG",
         "emoji": "🇨🇬",
         "unicode": "U+1F1E8 U+1F1EC",
-        "name": "Congo",
+        "name": "Republic of Congo",
         "title": "flag for Congo"
     },
     {
@@ -1690,8 +1690,8 @@ var flag_data =[
         "code": "VN",
         "emoji": "🇻🇳",
         "unicode": "U+1F1FB U+1F1F3",
-        "name": "Viet Nam",
-        "title": "flag for Viet Nam"
+        "name": "Vietnam",
+        "title": "flag for Vietnam"
     },
     {
         "code": "VU",
