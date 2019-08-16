@@ -1,7 +1,7 @@
 # World Happiness Analysis
 A project using multi-year datasets to visualize happiness as a function of factors such as geographic region, economic indicators, and other significant sociocultural factors.
 
-[Summary Picture](https://i.imgur.com/5HJ9JzN.png)
+![Summary Picture](https://i.imgur.com/5HJ9JzN.png)
 
 [Visit the Demo Site](https://rocky-everglades-66561.herokuapp.com/)
 
@@ -13,8 +13,11 @@ This question, known as the Cantril ladder, asks respondents to think of a ladde
 **Data Sources**
 
 https://www.kaggle.com/unsdsn/world-happiness#2017.csv
+
 https://www.kaggle.com/zillow/zecon#all_available_metrics.json
+
 https://www.kaggle.com/worldbank/world-development-indicators
+
 https://newsapi.org/sources
 
 
@@ -38,4 +41,4 @@ The general information section of this project provides facts about various cou
 
 Initially blank, the CIA Factbook entry is loaded up as an IFrame based on the user's request. Below is an image showing the IFrame description that is generated. Note that users are able to scroll down on the IFrame for more information, and that many important statistics concerning GDP, politics, demographics, important traditions, and similarly pertinent information is given along with the most common symbolic representations of that country at the very top.
 
-[CIA_Factbook](https://i.imgur.com/5HJ9JzN.png)
+![CIA_Factbook](https://i.imgur.com/jWFLF4b.png)
