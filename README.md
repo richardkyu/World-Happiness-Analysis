@@ -3,9 +3,21 @@ A project using multi-year datasets to visualize happiness as a function of fact
 
 ![Summary Picture](https://i.imgur.com/5HJ9JzN.png)
 
-[Visit the Demo Site](https://rocky-everglades-66561.herokuapp.com/)
+[Visit the Demo Site!](https://rocky-everglades-66561.herokuapp.com/)
 
-## Background information
+Table of contents
+=================
+
+<!--ts-->
+   * [Background Information](#Background-information)
+   * [General Country Information](#General-Information)
+   * [Choropleths](#Choropleths)
+   * [Vega / Plotly Visualizations](#Vega-Visualizations)
+   * [Dynamic Country Data and News](#Dynamic-Country-Data-and-News)
+
+<!--te-->
+
+# Background information
 The happiness scores and rankings use data from the Gallup World Poll.
 The scores are based on answers to the main life evaluation question asked in the poll.
 This question, known as the Cantril ladder, asks respondents to think of a ladder with the best possible life for them being a 10 and the worst possible life being a 0 and to rate their own current lives on that scale.
@@ -20,17 +32,6 @@ https://www.kaggle.com/worldbank/world-development-indicators
 
 https://newsapi.org/sources
 
-
-Table of contents
-=================
-
-<!--ts-->
-   1. [General Country Information](#General-Information)
-   2. [Choropleths](#Choropleths)
-   3. [Vega / Plotly Visualizations](#Vega-Visualizations)
-   4. [Dynamic Country Data and News](#Dynamic-Country-Data-and-News)
-
-<!--te-->
 
 General Information
 =================
@@ -56,3 +57,23 @@ For reference, clicking within a country's borders allows users to see the happi
 Clicking on scrape will immediately bring the CIA Factbook entry up in general information for the user's perusal and a set of current news articles at the bottom, so users have access to current events to aid their judgments.
 
 ![Choropleth](https://i.imgur.com/ZFE73VS.png)
+
+A happiness score legend is located at the bottom right to allow users to have a sense of the meanings of the color scale. Users can view data throughout the years by clicking on the layered icon in the top right corner to reveal a dropdown.
+
+Vega Visualizations
+=================
+These visualizations created in vega / plotly help give a more insightful perspective into how different factors such as economic indicators correlate with sociocultural factors (i.e. family).
+
+Users are able to select sections of the chart to reveal more specific data values.
+
+![Vega Chart](https://i.imgur.com/ZU7fIwo.png)
+
+There are two of these charts. One, as pictured above, shows correlations while the second focuses on where each country falls based on averages.
+
+Dynamic Country Data and News
+=================
+After clicking the scrape button on the choropleths, this list will populate based on articles scraped from the RSS feed of Google News. Having knowledge of current events explains the rapid deterioration of happiness in some countries over the three year period visualized, such as Venezuela, where political unrest and regime instability threatens the ability of its citizens to live normal lives.
+
+![News](https://i.imgur.com/FjclMDY.png)
+
+For reference, Venezuela dropped from **#23 in happiness in 2015 to #82 in 2017, a mere two-year difference.**
