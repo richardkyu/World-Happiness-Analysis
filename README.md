@@ -1,6 +1,8 @@
 # World Happiness Analysis
 
-[Visit the Demo Site!](https://rocky-everglades-66561.herokuapp.com/)
+[Visit the Demo Site!](https://rocky-everglades-66561.herokuapp.com/) 
+
+**Please allow 30 sec for Heroku to load app.**
 
 A project using multi-year datasets to visualize happiness as a function of factors such as geographic region, economic indicators, and other significant sociocultural factors.
 
